@@ -12,7 +12,7 @@ export default function Header() {
     <>
       <header>
         <div className="logo" />
-        <div className="htitle">Jan ist der geilste!!!</div>
+        <div className="htitle">Bibi ist der geilste!!!</div>
         <div className="badges">
           {levels.map((i) => {
             const state = progress.done[i] ? " done" : i === progress.lvl ? " now" : "";
